@@ -1,0 +1,354 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Synora Technologies | Business & General Enquiries</title>
+
+    <meta name="description"
+        content="Get in touch with Synora Technologies for business enquiries, collaborations, project discussions and general questions.">
+
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#091324">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Contact Us | Synora Technologies">
+    <meta property="og:description"
+        content="Contact Synora Technologies for business enquiries, collaborations and general questions.">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Contact | Synora Technologies">
+    <meta name="twitter:description"
+        content="Get in touch with Synora Technologies for enquiries and collaborations.">
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .contact-hero {
+            text-align: center;
+            padding: 85px 7% 45px;
+        }
+
+        .contact-hero span {
+            color: #55d9ff;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            font-size: 13px;
+        }
+
+        .contact-hero h1 {
+            color: white;
+            font-size: clamp(38px, 6vw, 60px);
+            margin: 18px 0;
+        }
+
+        .contact-hero h1 strong {
+            background: linear-gradient(90deg, #55d9ff, #927aff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+
+        .contact-hero p {
+            color: #b4c3d5;
+            max-width: 650px;
+            margin: auto;
+            line-height: 1.8;
+        }
+
+        .contact-container {
+            width: 88%;
+            max-width: 1100px;
+            margin: 30px auto 90px;
+            display: grid;
+            grid-template-columns: 0.85fr 1.15fr;
+            gap: 30px;
+        }
+
+        .contact-info,
+        .contact-form {
+            padding: 32px;
+            border: 1px solid rgba(85,217,255,.2);
+            border-radius: 20px;
+            background: linear-gradient(145deg, #142a42, #091324);
+        }
+
+        .contact-info h2,
+        .contact-form h2 {
+            color: white;
+            margin: 0 0 15px;
+        }
+
+        .contact-info > p {
+            color: #b4c3d5;
+            line-height: 1.8;
+            margin-bottom: 28px;
+        }
+
+        .contact-detail {
+            padding: 17px;
+            margin-top: 15px;
+            border-radius: 12px;
+            background: rgba(85,217,255,.06);
+            border: 1px solid rgba(85,217,255,.12);
+        }
+
+        .contact-detail h3 {
+            color: #55d9ff;
+            font-size: 14px;
+            margin: 0 0 8px;
+        }
+
+        .contact-detail a {
+            color: #e3efff;
+            text-decoration: none;
+            overflow-wrap: anywhere;
+        }
+
+        .contact-detail a:hover {
+            color: #55d9ff;
+        }
+
+        .contact-form label {
+            display: block;
+            color: #dce9f7;
+            margin: 17px 0 8px;
+            font-size: 14px;
+        }
+
+        .contact-form input,
+        .contact-form select,
+        .contact-form textarea {
+            width: 100%;
+            padding: 14px;
+            border-radius: 9px;
+            border: 1px solid rgba(130,180,220,.25);
+            background: #0a192b;
+            color: white;
+            font: inherit;
+            outline: none;
+        }
+
+        .contact-form input:focus,
+        .contact-form select:focus,
+        .contact-form textarea:focus {
+            border-color: #55d9ff;
+        }
+
+        .contact-form textarea {
+            min-height: 140px;
+            resize: vertical;
+        }
+
+        .contact-form button {
+            width: 100%;
+            margin-top: 22px;
+            padding: 15px;
+            border: none;
+            border-radius: 9px;
+            background: linear-gradient(90deg, #20bce9, #6579ff);
+            color: white;
+            font-size: 15px;
+            font-weight: 700;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            opacity: .9;
+        }
+
+        .form-note {
+            color: #9eafc2;
+            font-size: 12px;
+            line-height: 1.6;
+            margin-top: 14px;
+        }
+
+        @media(max-width: 768px) {
+            .contact-container {
+                grid-template-columns: 1fr;
+            }
+
+            .contact-info,
+            .contact-form {
+                padding: 24px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="header">
+        <nav class="navbar">
+
+            <a href="index.html" class="logo">
+                <img src="synora.jpeg" alt="Synora Technologies Logo">
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="index.html#roadmap">Roadmap</a></li>
+                <li>
+                    <a href="contact.html"
+                       class="active-link"
+                       aria-current="page">Contact</a>
+                </li>
+            </ul>
+
+            <button class="menu-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- HERO -->
+        <section class="contact-hero">
+
+            <span>Get In Touch</span>
+
+            <h1>Let's Start a <strong>Conversation</strong></h1>
+
+            <p>
+                Have a question, business enquiry, collaboration idea
+                or feedback? Send a message to Synora Technologies.
+                We would be glad to hear from you.
+            </p>
+
+        </section>
+
+        <!-- CONTACT CONTENT -->
+        <section class="contact-container">
+
+            <!-- CONTACT DETAILS -->
+            <div class="contact-info">
+
+                <h2>Contact Information</h2>
+
+                <p>
+                    Reach out to us through our official communication
+                    channels for enquiries and general information.
+                </p>
+
+                <div class="contact-detail">
+                    <h3>Official Email</h3>
+                    <a href="mailto:synoratechnologies1@gmail.com">
+                        synoratechnologies1@gmail.com
+                    </a>
+                </div>
+
+                <div class="contact-detail">
+                    <h3>Instagram</h3>
+                    <a href="https://www.instagram.com/synoratechnologies/"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        @synoratechnologies
+                    </a>
+                </div>
+
+                <div class="contact-detail">
+                    <h3>Business Enquiries</h3>
+                    <a href="mailto:synoratechnologies1@gmail.com?subject=Business%20Enquiry">
+                        Send a business enquiry
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- CONTACT FORM -->
+            <div class="contact-form">
+
+                <h2>Send Us a Message</h2>
+
+                <form id="contactForm">
+
+                    <label for="name">Your Name</label>
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Enter your name"
+                        autocomplete="name"
+                        required
+                    >
+
+                    <label for="email">Your Email</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email"
+                        autocomplete="email"
+                        required
+                    >
+
+                    <label for="subject">Enquiry Type</label>
+                    <select id="subject" name="subject" required>
+                        <option value="">Select enquiry type</option>
+                        <option value="General Enquiry">General Enquiry</option>
+                        <option value="Business Enquiry">Business Enquiry</option>
+                        <option value="Collaboration">Collaboration</option>
+                        <option value="Project Enquiry">Project Enquiry</option>
+                        <option value="Feedback">Feedback</option>
+                        <option value="Other">Other</option>
+                    </select>
+
+                    <label for="message">Your Message</label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        placeholder="Write your message here..."
+                        required
+                    ></textarea>
+
+                    <button type="submit">
+                        Send Enquiry →
+                    </button>
+
+                    <p class="form-note">
+                        When you submit this form, your default email
+                        application will open with your enquiry details
+                        filled in. Review the message and press Send
+                        to email us.
+                    </p>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <p>
+            © <span id="year"></span>
+            Synora Technologies. All rights reserved.
+        </p>
+
+        <p>Building Intelligent Technology for Tomorrow.</p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+    <script>
+        document.getElementById("year").textContent =
+            new Date().getFullYear();
+    </script>
+
+</body>
+</html>

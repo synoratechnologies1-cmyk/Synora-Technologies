@@ -1,0 +1,347 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Our Projects & Innovation Initiatives | Synora Technologies</title>
+
+    <meta name="description"
+        content="Explore Synora Technologies' emerging projects, including Synora Shield and Cyber Nova AI. Discover our work in cybersecurity, artificial intelligence and future technology.">
+
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#091324">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Projects & Innovation | Synora Technologies">
+    <meta property="og:description"
+        content="Discover emerging technology projects and innovation initiatives at Synora Technologies.">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Projects | Synora Technologies">
+    <meta name="twitter:description"
+        content="Explore our emerging projects in AI, cybersecurity and intelligent technology.">
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .projects-hero {
+            text-align: center;
+            padding: 100px 8% 70px;
+        }
+
+        .projects-hero .tagline {
+            color: #55d9ff;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            font-size: 13px;
+            font-weight: 700;
+        }
+
+        .projects-hero h1 {
+            font-size: clamp(38px, 6vw, 65px);
+            margin: 20px 0;
+            color: #ffffff;
+        }
+
+        .projects-hero h1 span {
+            background: linear-gradient(90deg, #55d9ff, #927aff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+
+        .projects-hero p {
+            max-width: 720px;
+            margin: auto;
+            color: #b4c3d5;
+            line-height: 1.8;
+        }
+
+        .projects-container {
+            width: 88%;
+            max-width: 1150px;
+            margin: 0 auto 90px;
+        }
+
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 28px;
+        }
+
+        .project-card {
+            padding: 35px;
+            border: 1px solid rgba(85, 217, 255, 0.2);
+            border-radius: 20px;
+            background: linear-gradient(
+                145deg,
+                rgba(20, 42, 66, 0.95),
+                rgba(9, 19, 36, 0.98)
+            );
+            transition: 0.3s ease;
+        }
+
+        .project-card:hover {
+            transform: translateY(-7px);
+            border-color: #55d9ff;
+            box-shadow: 0 15px 40px rgba(0, 180, 255, 0.12);
+        }
+
+        .project-icon {
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 16px;
+            background: rgba(85, 217, 255, 0.12);
+            font-size: 30px;
+            margin-bottom: 25px;
+        }
+
+        .project-status {
+            display: inline-block;
+            padding: 7px 13px;
+            border-radius: 30px;
+            background: rgba(85, 217, 255, 0.1);
+            border: 1px solid rgba(85, 217, 255, 0.3);
+            color: #75e1ff;
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 17px;
+        }
+
+        .project-card h2 {
+            color: #ffffff;
+            font-size: 27px;
+            margin-bottom: 15px;
+        }
+
+        .project-card p {
+            color: #b4c3d5;
+            line-height: 1.8;
+        }
+
+        .project-card ul {
+            color: #c8d5e3;
+            line-height: 2;
+            padding-left: 20px;
+            margin-top: 20px;
+        }
+
+        .development-note {
+            margin-top: 30px;
+            padding: 23px;
+            border-left: 3px solid #55d9ff;
+            border-radius: 8px;
+            background: rgba(85, 217, 255, 0.07);
+            color: #b4c3d5;
+            line-height: 1.8;
+        }
+
+        .future-section {
+            text-align: center;
+            padding: 70px 25px;
+            margin-top: 65px;
+            border-radius: 22px;
+            border: 1px solid rgba(85, 217, 255, 0.2);
+            background: linear-gradient(
+                135deg,
+                rgba(22, 53, 82, 0.7),
+                rgba(26, 27, 65, 0.6)
+            );
+        }
+
+        .future-section h2 {
+            color: white;
+            font-size: clamp(28px, 4vw, 42px);
+            margin-bottom: 18px;
+        }
+
+        .future-section p {
+            max-width: 680px;
+            margin: auto;
+            color: #b4c3d5;
+            line-height: 1.8;
+        }
+
+        @media (max-width: 768px) {
+            .projects-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .projects-hero {
+                padding: 75px 6% 55px;
+            }
+
+            .project-card {
+                padding: 27px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <nav class="navbar">
+
+            <a href="index.html" class="logo">
+                <img src="synora.jpeg" alt="Synora Technologies Logo">
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li>
+                    <a href="projects.html"
+                       class="active-link"
+                       aria-current="page">Projects</a>
+                </li>
+                <li><a href="index.html#roadmap">Roadmap</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+
+            <button class="menu-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- HERO SECTION -->
+        <section class="projects-hero">
+
+            <div class="tagline">Ideas Into Innovation</div>
+
+            <h1>
+                Building What's <span>Next</span>
+            </h1>
+
+            <p>
+                Explore the technology initiatives taking shape at
+                Synora Technologies. We are focused on researching,
+                designing and developing ideas that can help solve
+                meaningful real-world problems.
+            </p>
+
+        </section>
+
+        <!-- PROJECTS SECTION -->
+        <section class="projects-container">
+
+            <div class="projects-grid">
+
+                <!-- PROJECT 1 -->
+                <article class="project-card">
+
+                    <div class="project-icon" aria-hidden="true">🛡️</div>
+
+                    <span class="project-status">
+                        In Development
+                    </span>
+
+                    <h2>Synora Shield</h2>
+
+                    <p>
+                        An emerging cybersecurity initiative focused
+                        on making digital safety easier to understand
+                        and access.
+                    </p>
+
+                    <ul>
+                        <li>AI-assisted website risk analysis</li>
+                        <li>Phishing and scam awareness</li>
+                        <li>Suspicious link analysis</li>
+                        <li>Cybersecurity guidance</li>
+                    </ul>
+
+                </article>
+
+                <!-- PROJECT 2 -->
+                <article class="project-card">
+
+                    <div class="project-icon" aria-hidden="true">✦</div>
+
+                    <span class="project-status">
+                        Planned AI Initiative
+                    </span>
+
+                    <h2>Cyber Nova AI</h2>
+
+                    <p>
+                        The planned AI engine for the Synora Shield
+                        vision, intended to support helpful and
+                        understandable cybersecurity insights.
+                    </p>
+
+                    <ul>
+                        <li>AI-powered risk explanations</li>
+                        <li>Intelligent security recommendations</li>
+                        <li>Cybersecurity assistance</li>
+                        <li>Research into threat analysis</li>
+                    </ul>
+
+                </article>
+
+            </div>
+
+            <!-- TRANSPARENCY NOTE -->
+            <div class="development-note">
+
+                <strong>Development Transparency:</strong>
+                These are early-stage initiatives. Features and
+                capabilities are being explored and developed.
+                They are not presented as finished or publicly
+                available products.
+
+            </div>
+
+            <!-- FUTURE SECTION -->
+            <section class="future-section">
+
+                <h2>More Ideas. More Possibilities.</h2>
+
+                <p>
+                    Our future project direction spans intelligent
+                    software, engineering, robotics, deep technology
+                    and research. We will share meaningful updates
+                    as these initiatives progress.
+                </p>
+
+            </section>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <p>
+            © <span id="year"></span>
+            Synora Technologies. All rights reserved.
+        </p>
+
+        <p>Building Intelligent Technology for Tomorrow.</p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+    <script>
+        document.getElementById("year").textContent =
+            new Date().getFullYear();
+    </script>
+
+</body>
+</html>
